@@ -33,17 +33,9 @@ body {
   width: 100%;
   margin: 0 auto;
   border-radius: 10px;
-  display: block;   
+  display: block;
 }
-.card .content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin: 24px 16px 16px;
-}
-.card h1 {
+h1 {
   font-size: 22px;
   font-weight: bold;
   color: var(--title-primary-color);
