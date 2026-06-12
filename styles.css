@@ -11,7 +11,7 @@
 
   --title-primary-color: #1f314f;
   --text-primary-color: #68778d;
-}
+} 
  
 body {
   background-color: var(--primary-background);
