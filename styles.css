@@ -13,46 +13,47 @@
   --text-primary-color: #68778d;
 }
 
-@media (max-width: 1440px) {
-}
 body {
   background-color: var(--primary-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
 .card {
   background-color: var(--card-background);
-  margin: 230px auto;
-  padding: 16px 16px 40px;
-  height: 499px;
-  width: 320px;
   border-radius: 20px;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+  max-width: 320px;
+  max-height: 499px;
+  padding: 16px 16px 40px 16px;
 }
-img {
-  height: 288px;
-  width: auto;
+
+.card img {
+  width: 100%;
   border-radius: 10px;
+  display: block;
 }
-h1 {
+.card .content {
+  margin-top: 24px;
+  padding: 0px´16px 40px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card h1 {
   font-size: 22px;
   font-weight: bold;
   color: var(--title-primary-color);
   line-height: 120%;
   letter-spacing: 0;
-  margin: 24px 16px 0 16px;
-  text-align: center;
 }
 
-p {
+.card p {
   font-size: 15px;
   color: var(--text-primary-color);
   line-height: 140%;
   letter-spacing: 0.2px;
-  text-align: center;
-  margin: 16px 16px 0 16px;
-}
-
-@media (max-width: 376px) {
-  .card {
-    margin: 156px auto;
-  }
 }
