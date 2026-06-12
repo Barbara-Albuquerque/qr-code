@@ -35,6 +35,13 @@ body {
   border-radius: 10px;
   display: block;
 }
+.card .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px 16px;
+}
 h1 {
   font-size: 22px;
   font-weight: bold;
