@@ -25,6 +25,7 @@ body {
   height: 499px;
   width: 320px;
   border-radius: 20px;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
 }
 img {
   height: 288px;
@@ -51,7 +52,7 @@ p {
 }
 
 @media (max-width: 376px) {
-   .card{
+  .card {
     margin: 156px auto;
-   }
+  }
 }
